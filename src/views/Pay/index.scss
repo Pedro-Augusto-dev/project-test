@@ -1,0 +1,117 @@
+@use"../../sass/variables" as *;
+
+.Pay{
+    display: flex;
+    flex-direction:column;
+    &__Infos{
+        display: flex;
+        flex-direction: row;
+    }
+    &____header{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &__contLeft{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 70px;
+        width: 40%;
+        margin-left: 100px;
+    }
+    
+
+    &__contInputs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    &__inputs{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+    }
+    &__inputs input {
+        width: 524px;
+        height: 52px;
+
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding-left: 11px;
+        margin-top: 5px;
+        margin-bottom: 47px;
+        border: 1px solid $input-border;
+    }
+    &__inputs label {
+
+        font-size: 30px;
+        font-family: 'Raleway',sans-serif;
+        font-weight: 400;
+
+        color: $font-color-Label;
+    } 
+    &__payment{
+        display: flex;
+        flex-direction: row;
+    }
+    &__payment ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        
+    }
+    &__payment li{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    
+    }
+    &__Checkbox{
+        padding-left: 10px;
+        font-size: 26px;
+        font-family: 'Raleway',sans-serif;
+        font-weight: 400;
+        
+    }
+    &__payButton{
+        display: flex;
+        align-items: center;
+        
+        margin-top: 50px;
+    }
+    &__payButton button{
+        width: 524px;
+        height: 48px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: $color-contrast;
+        border-radius: 6px;
+        border: none;
+
+        color: $font-button;
+        font-size: 18px;
+        font-family: $type-font-family;
+        font-weight: 800;
+    }
+
+    &__contRigh{
+        display: flex;
+        justify-content: space-around;
+        padding: 70px;
+    }
+    &____contRigh h2 {
+        color: aqua;
+        display: flex;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}

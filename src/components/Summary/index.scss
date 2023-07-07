@@ -1,0 +1,83 @@
+@use"./../../sass/variables" as *;
+.Pay{
+    
+    &contRigh{}
+
+    &__Summary{
+        width: 572px;
+        height: 287px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D9D9D9;
+        box-shadow: 2px 4px 4px 0px rgba(173, 173, 173, 0.25);
+        
+        margin-left: 300px;
+    
+    }
+    &__summaryProduct{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 10px;
+        
+    }
+    &__summaryProduct h1{
+        display: flex;
+        padding-right: 190px;
+        
+    }
+    &__border{
+        background-color: #D9D9D9;
+        width: 87%;
+        height: 3px;
+    
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    &__summaryTotal{
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__summaryTotal h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-right: 270px;
+        margin-left: 10px;
+    }
+    &____Products{
+        padding-right: 10px;
+        margin-right: 30px;
+    }
+    &__h1{
+        display: flex;
+        justify-content: left;
+        padding-bottom: 51px;
+        padding-right: 250px;
+
+        font-family: $type-font-family;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    &__Price{
+        padding-right: 10px;
+    }
+    &__summaryTotal h2, &__summaryProduct  h2 {
+        display: flex;
+        
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+    &__summaryTotal h1, &__summaryProduct  h1{
+        display: flex;
+
+        font-size: 25px;
+        font-family: $type-font-family;
+        font-weight: 400;
+    }
+
+}

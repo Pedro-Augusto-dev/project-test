@@ -1,0 +1,13 @@
+//tdo arquivo em sass teve ter as variables caso tenhamos criado algumas
+@use"../../sass/variables" as *;
+
+.home{
+
+    &__products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    
+    
+    }
+}

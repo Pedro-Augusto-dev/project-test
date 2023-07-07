@@ -1,0 +1,79 @@
+@use"../../sass/variables"as *;
+
+
+.login {
+    h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        padding-top: 120px;
+        padding-bottom: 5px;
+
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        margin-bottom: 60px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__inputName {
+        display: flex;
+        width: 524px;
+        height: 52px;
+
+        border-radius: 10px;
+        border: 2px solid $input-border;
+        padding-left: 11px;
+        padding-right: 11px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+    &__label {
+        font-weight: 400;
+        color: $font-color;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    &__formCont{
+        display: flex;
+        flex-direction: column;
+    }
+    &__button {
+        width: 524px;
+        height: 48px;
+        position: fixed;
+        background-color: $button-color;
+        border: none;
+        color: $font-button;
+        text-transform: uppercase;
+        border-radius: 8px;
+        margin-top: 30px;
+
+        font-weight: 800;
+    }
+    &__contButton {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    a {
+        color: $font-button;
+        text-decoration: none;
+    }
+}

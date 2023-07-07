@@ -1,0 +1,53 @@
+@use"../../sass/variables" as *;
+
+.Products{
+    width: 300px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $input-border;
+    border-radius:8px ;
+    margin-top: 96px;
+    margin-left: 188px;
+    
+    
+    &__img{
+        border-top-left-radius:  8px;
+        border-top-right-radius: 8px;
+    }
+    
+
+    &__model{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 16px;
+        
+    }
+    button{
+        display: flex;
+        width: 128px;
+        height: 24px;
+        padding: 16px;
+        margin-top: 16px;
+        
+        border: 1px solid $input-button-color;
+        
+        align-items: center;
+        line-height: 20px;
+
+        font-family: 'Raleway',sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+
+        background-color: $button-color;
+        
+    }
+
+    a{
+        color: $font-button;
+        text-decoration: none;
+    }
+}

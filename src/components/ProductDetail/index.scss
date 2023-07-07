@@ -1,0 +1,140 @@
+@use"../../sass/variables" as *;
+
+.product-detail{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 600px;
+
+    &__left-side{
+        margin-top: 140px;
+        padding-right: 128px;
+    }
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+
+        border: 1px solid $card-background;
+        border-radius: 8px;
+    }
+
+    &__cardP{
+        padding: 16px;
+    }
+
+    &__description{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 71px;
+        border-top: transparent;
+        border-bottom: 1px solid $card-background;
+        padding-bottom: 20px;
+
+        h1 {
+            padding-bottom: 17px;
+        }
+    }
+
+
+    &__right-side{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    &__h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+
+        font-weight: 400;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+
+        border-bottom: 1px solid $card-background;
+        margin-bottom: 15px;
+    }
+
+    &__h2{
+        padding-top: 0px;
+
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+
+    }        
+    &__Color{
+        display: flex;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+
+    }
+    
+    &__box-detail{
+        border: 2px solid $input-border;
+        margin-right: 5px;
+    }
+    &__box-colors{
+        display: flex;
+        position: relative;
+        top: 10px;
+        padding-bottom: 20px;
+        
+    }
+    &__box-sizes{
+        display: flex;
+        position: relative;
+        top: 21px;
+    }
+    &__P{
+        padding-top: 10px;
+        font-size: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    &__span{
+        margin-right: 25px;
+        padding: 20px;
+    }
+    button{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        top: 175px;
+        
+        width: 638px;
+        height: 46.459px;
+
+        background-color: $button-color;
+        border:1px solid rgb(0, 0, 0, 0.30);
+        border-radius: 10px; 
+
+        font-family: 'Raleway',sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+
+        a{
+            position:absolute;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+        }
+
+    }  
+    
+
+}
