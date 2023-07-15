@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./index.scss"
 import React from 'react'
 
-const ProductDetail = ({ data }) => {
+const DetailProduct = ({ data }) => {
     console.log(data);
     return (
         <div className="product-detail">
@@ -69,4 +69,4 @@ const ProductDetail = ({ data }) => {
     )
 }
 
-export default ProductDetail;
+export default DetailProduct;

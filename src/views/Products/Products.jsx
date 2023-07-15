@@ -3,7 +3,8 @@ import './index.scss';
 import Search from '../../components/Search/Search';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu';
 import { useParams } from 'react-router-dom';
-import ProductDetail from '../../components/ProductDetail/productDetail';
+
+import DetailProduct from '../../components/DetailsProduct/DetailsProduct';
 
 const Products = ({ data }) => {
     const { productId } = useParams();
@@ -12,7 +13,11 @@ const Products = ({ data }) => {
     return (<div className='products'>
         <HeaderMenu />
         <Search />
-        <ProductDetail data={selectedProducts}/>
+        <DetailProduct data={selectedProducts}/>
+        
+
+
+
     </div>
     );
 };
